@@ -19,7 +19,7 @@ void tree(int size)
     int top_size = 1;
     int bot_size = 7;
     int delta_size = 0;
-    
+
     calc_last_line(height, delta_size, size);
 }
 
@@ -27,7 +27,7 @@ void calc_last_line(int height, int delta_size, int size)
 {
     int top_size;
     int max_bot_size = 7;
-    
+
     for (int i = 1; i < size; i++){
         if (i % 2 == 1)
             delta_size += 2;
